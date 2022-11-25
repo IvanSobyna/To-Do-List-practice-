@@ -20,7 +20,7 @@ background-color: ghostwhite;
     border: 1px solid white;
     box-shadow: 3px 3px 3px #e1e5ea, 3px 3px 5px rgb(122 122 134 / 40%);
     margin-left: 20px;
-    width: 350px;
+    width: 345px;
     height: 35px;
 margin-top: 20px;
     font-family: "Adelle Sans Devanagari";
@@ -32,7 +32,7 @@ margin-top: 20px;
     margin-left: 24px;
 }
 .new-task{
-width: 350px;
+width: 360px;
     height: 40px;
     border: 1px solid silver;
     background-color: cornflowerblue;
@@ -54,7 +54,7 @@ width: 350px;
 
 }
 .taskOne {
-    width: 353px;
+    width: 355px;
     height: 36px;
     align-items: center;
     border: 1px solid white;
@@ -67,12 +67,27 @@ width: 350px;
     font-size: 20px;
 }
 .completed {
-    background-color: silver;
+    background-color: aliceblue;
     text-decoration: line-through;
     transition: .5s;
 }
-
-
+.completebtn {
+    background: lightsteelblue;
+    border-radius: 25px;
+    width: 31px;
+    height: 31px;
+    margin-right: 3px;
+}
+.deletebtn {
+    background: lightcoral;
+    border-radius: 25px;
+    align-items: end;
+    width: 31px;
+    height: 31px;
+}
+p{
+width: 286px;
+}
 
 
 
