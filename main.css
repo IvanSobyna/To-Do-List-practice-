@@ -1,12 +1,12 @@
 .to-do-list{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .container {
 background-color: ghostwhite;
     width: 400px;
-    height: 500px;
+    height: 550px;
     box-shadow: 3px 3px 3px #e1e5ea, 3px 3px 5px rgb(122 122 134 / 40%);
 }
 .name{
@@ -51,7 +51,7 @@ width: 360px;
 
     margin-left: 22px;
     margin-top: 17px;
-
+height: 260px;
 }
 .taskOne {
     width: 355px;
@@ -88,7 +88,13 @@ width: 360px;
 p{
 width: 286px;
 }
-
+.filter-menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: "Adelle Sans Devanagari";
+    margin-top: -6px;
+}
 
 
 
